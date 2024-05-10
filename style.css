@@ -1,0 +1,34 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.display {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    text-align: right; 
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.key {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #ddd;
+}
